@@ -38,3 +38,11 @@ console.log(precoFinal);
 
 // `` - template strings - concatenação
 console.log(`R$ ${precoFinal.toFixed(2)}`)
+
+
+// DOM (DOCUMENT OBJECT MODEL)
+const Titulo = document.getElementById("titulo");
+
+Titulo.innerText = "O DOM Mudou o Texto";
+
+Titulo.style.color = "blue"
